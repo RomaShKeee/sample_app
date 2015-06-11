@@ -7,11 +7,16 @@ gem 'rails', '4.2.1'
 group :development do
   gem 'pg', '0.18.2'
   gem 'rspec-rails', '3.2.3'
+  gem 'guard-rspec', '4.5.2'
 end
 
 group :test do
   gem 'selenium-webdriver', '2.46.2'
   gem 'capybara', '2.4.4'
+  gem 'libnotify', '0.9.1'
+  gem 'spork-rails', '4.0.0'
+  gem 'guard-spork', '2.1.0'
+  gem 'childprocess', '0.5.6'
 end
 
 # Use SCSS for stylesheets
