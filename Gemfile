@@ -5,6 +5,9 @@ ruby '2.2.0'
 gem 'rails', '4.2.1'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'bcrypt', '3.1.10'
+gem 'faker', '1.4.3' 
+gem 'will_paginate', '3.0.7'
+gem 'bootstrap-will_paginate'
 # Use sqlite3 as the database for Active Record
 group :development do
   gem 'wirble'
