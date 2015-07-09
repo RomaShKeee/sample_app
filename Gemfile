@@ -13,6 +13,7 @@ group :development do
   gem 'wirble'
   gem 'pg', '0.18.2'
   gem 'rspec-rails', '3.2.3'
+  gem 'rspec-its', '1.2.0'
   gem 'guard-rspec', '4.5.2'
 end
 

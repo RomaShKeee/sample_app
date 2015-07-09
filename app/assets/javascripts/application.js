@@ -14,4 +14,8 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require turbolinks
+//= require static_pages
 //= require_tree .
+
+
+
